@@ -1,0 +1,9 @@
+{
+  "name": "vuex-module-builder",
+  "version": "1.0.0",
+  "description": "module creation ideas for vuex",
+  "main": "src/index.js",
+  "repository": "https://github.com/jdltechworks/vuex-module-builder",
+  "author": "jdltechworks",
+  "license": "UNLICENSED"
+}
