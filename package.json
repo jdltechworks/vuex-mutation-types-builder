@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/jdltechworks/vuex-mutation-types-builder",
   "author": "jdltechworks",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^23.1.0"
+  }
 }
