@@ -2,8 +2,8 @@
   "name": "vuex-mutation-types-builder",
   "version": "1.0.0",
   "description": "module creation ideas for vuex",
-  "main": "src/index.js",
-  "repository": "https://github.com/jdltechworks/vuex-module-builder",
+  "main": "index.js",
+  "repository": "https://github.com/jdltechworks/vuex-mutation-types-builder",
   "author": "jdltechworks",
-  "license": "UNLICENSED"
+  "license": "MIT"
 }
