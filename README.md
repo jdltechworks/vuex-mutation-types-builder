@@ -1,1 +1,1 @@
-# Muation Types Builder for Vuex
+# Mutation Types Builder for Vuex
