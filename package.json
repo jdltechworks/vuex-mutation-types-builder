@@ -1,5 +1,5 @@
 {
-  "name": "vuex-module-builder",
+  "name": "vuex-mutation-types-builder",
   "version": "1.0.0",
   "description": "module creation ideas for vuex",
   "main": "src/index.js",
