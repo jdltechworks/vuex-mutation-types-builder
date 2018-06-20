@@ -19,7 +19,7 @@ export function studlyCase(string) {
 }
 
 const createMutationTypes = name => (...definitions) => definitions.reduce((collection, key) => {
-    collection[key] = (typeof name == 'undefined' || name == null) ? studlyCase(key) : studlyCase(`${key} ${name}`);
+    collection[key] = (typeof name == 'undefined' || name == null) ? studlyCase(key) : ([name, studlyCase(`${key}`)].join('/'));
     return collection;
 }, {});
 

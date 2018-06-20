@@ -21,8 +21,8 @@ it(`Build mutation types with namespace`, () => {
         'DESTROY'
     );
     expect(types).toBeDefined();
-    expect(types.FETCH).toBe('fetchPost');
-    expect(types.FETCH_ALL).toBe('fetchAllPost');
+    expect(types.FETCH).toBe('post/fetch');
+    expect(types.FETCH_ALL).toBe('post/fetchAll');
     expect(types.DESTROY_ALL).toBeUndefined();
 });
 
@@ -33,6 +33,6 @@ it(`Build mutation types with destructuring`, () => {
         'UPDATE',
         'DESTROY'
     );
-    expect(FETCH).toBe('fetchPost');
-    expect(STORE).toBe('storePost');
+    expect(FETCH).toBe('post/fetch');
+    expect(STORE).toBe('post/store');
 });
