@@ -10,22 +10,17 @@ We got this idea from a redux book.
 
 [Full stack react module management](https://www.fullstackreact.com/articles/better-redux-module-management/)
 
+Installation
+
 ```
-    const types = {}
-
-    types.YOUR_MUTATION_TYPE_FIRST = 'YOUR_MUTATION_TYPE_FIRST'
-    types.YOUR_MUTATION_TYPE_SECOND = 'YOUR_MUTATION_TYPE_SECOND'
-    types.YOUR_MUTATION_TYPE_THIRD = 'YOUR_MUTATION_TYPE_THIRD'
-
-    export default types
+npm install vuex-mutation-types-builder
 ```
-
 
 ## Usage:
 
 types.js
 ```javascript
-import { createMutationTypes } from 'vuex-mutation-types-builder'
+import MutationTypes from 'vuex-mutation-types-builder'
 
 const types = new MutationTypes(
     'LOGIN',

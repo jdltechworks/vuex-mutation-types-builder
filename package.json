@@ -1,6 +1,6 @@
 {
   "name": "vuex-mutation-types-builder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "mutation builder for vuex",
   "main": "index.js",
   "repository": "https://github.com/jdltechworks/vuex-mutation-types-builder",
@@ -8,9 +8,9 @@
       "name": "Jose Lo Jr",
       "email": "jdltechworks@gmail.com"
   },
-  "contributors": {
+  "contributors": [
       "Glen Gringgo Bangkila <hadeinvane@gmail.com> (https://github.com/hadefication)"
-  },
+  ],
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.3",
