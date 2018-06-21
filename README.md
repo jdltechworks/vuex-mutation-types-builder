@@ -91,3 +91,17 @@ export default {
     }
 }
 ```
+
+somemodule/actions.js
+```javascript
+import types from './types'
+
+
+const { LOGIN } = types.all()
+
+export default {
+    async needsLoginMutationType({commit, state}) {
+        commit(LOGIN)
+    }
+}
+```
